@@ -1,0 +1,7 @@
+print('Enter the amount of your money: ')
+money_amount = float(input())
+print('Enter the price of an apple: ')
+apple_cost = float(input())
+amount_apple = int(money_amount/apple_cost)
+amount_change = float(money_amount%apple_cost)
+print(f'You can buy {amount_apple} apples and your change is {amount_change} pesos.')
